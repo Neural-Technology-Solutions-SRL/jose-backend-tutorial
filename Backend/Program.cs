@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 using System;
+using System.Text;
 
 namespace Backend
 {
@@ -206,7 +207,7 @@ namespace Backend
                Console.ReadLine();
             --------------------------------------------------*/
 
-            Console.WriteLine("The Name Game");
+            /*Console.WriteLine("The Name Game");
             Console.Write("What ' s your First name?");
             string firstName = Console.ReadLine();
 
@@ -214,7 +215,7 @@ namespace Backend
             string lastName = Console.ReadLine();
 
             Console.Write("In What city were you born?");
-            string city = Console.ReadLine();
+            string city = Console.ReadLine();                                 //>>>>>>>>>Defining and Calling Methods
 
 
             string reversedFirstName = ReversesString(firstName);
@@ -232,32 +233,92 @@ namespace Backend
                 ReversesString(city));
 
             Console.ReadLine();
+            ------------------------------------------------------------*/
+            /*----------------------------------------------------------------------
+            /*string myString = "My \"so-called\" life";
+            //string myString = "What if I need a \nnew line?"
+            //string myString = "Go to your c:\\drive";
+            //string myString = @"Go to your c:\ drive"; 
+            //string myString = String.Format("{1} = {0}", "First", "Second");
+
+            //string myString = String.Format("{0:C}", 123.45);
+            //string myString = String.Format("{0:N}", 1234567890);
+            //string myString = String.Format("Percentage: {0:P}", .123);
+            //string myString = String.Format("Phone Number{0:(###)###-####)}", 82958949226);
+            //string myString = " That summer we took threes across the board ";*/
+
+            //myString = myString.Substring(6, 14);
+            //myString = myString.ToUpper();
+            //myString = myString.Replace(" ", "--");
+            //myString = myString.Remove(6, 14);
+
+            /* myString = String.Format(" Length before: {0} -- Length after: {1}", 
+            // myString.Length, 
+             myString.Trim().Length);*/
+            // string myString = "";
+            /*for (int i = 0; i < 100; i++)                           //>>>>>>>>>>>> Working with Strings
+              {
+                  myString += "--" + i.ToString();
+              }*/
+            /* StringBuilder myString=new StringBuilder();
+             for (int i = 0; i < 100; i++)
+             {
+                 myString.Append("--");
+                 myString.Append(i);
+             }
+
+             Console.WriteLine(myString);
+             Console.ReadLine();
+            ------------------------------------------------------------------*/
+           /* DateTime myValue = DateTime.Now;
+            //Console.WriteLine(myValue.ToString());
+            //Console.WriteLine(myValue.ToShortDateString());
+            //Console.WriteLine(myValue.ToShortTimeString());
+            //Console.WriteLine(myValue.ToLongDateString());
+            //Console.WriteLine(myValue.ToLongTimeString());
+
+            //Console.WriteLine(myValue.AddDays(3).ToLongDateString());     //>>>>>>>>>> Working With Dates and Times
+            //Console.WriteLine(myValue.AddHours(3).ToLongTimeString());
+            //Console.WriteLine(myValue.AddDays(-3).ToLongDateString());
+
+            //Console.WriteLine(myValue.Month);
+
+            //DateTime myBirthday = new DateTime(1996, 4, 22);
+            //Console.WriteLine(myBirthday.ToShortDateString());
+            DateTime myBirthday = DateTime.Parse("4/22/1996");
+            TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+            Console.WriteLine(myAge.TotalDays);
+
+             Console.ReadLine();
+           -----------------------------------------------------------------------------------*/
 
         }
-        private static string ReversesString(string message)
-        {
+        /* private static string ReversesString(string message)
+         {
 
-            char[] messageArray = message.ToCharArray();
-            Array.Reverse(messageArray);
-            return string.Concat(messageArray);           //Defining and Calling Methods
+             char[] messageArray = message.ToCharArray();
+             Array.Reverse(messageArray);
+             return string.Concat(messageArray);           //Defining and Calling Methods
 
-        }
-        private static void DisplayResult(
-            string reversedFirstName,
-            string reversedLastName,
-            string reversedCity)
-        {
-            Console.Write("Result: ");
-            Console.Write(String.Format("{0} {1} {2}",
-                reversedFirstName,
-                reversedLastName,
-                reversedCity));
-        }
-        private static void DisplayResult(
-           string message)
-        {
-            Console.Write("Result: ");
-            Console.Write(message);
-        }
+         }
+         private static void DisplayResult(
+             string reversedFirstName,
+             string reversedLastName,
+             string reversedCity)
+         {
+             Console.Write("Result: ");
+             Console.Write(String.Format("{0} {1} {2}",
+                 reversedFirstName,
+                 reversedLastName,
+                 reversedCity));
+         }
+         private static void DisplayResult(
+            string message)
+         {
+             Console.Write("Result: ");
+             Console.Write(message);
+         }
+        ---------------------------------------------------------------*/
+
     }
 }
