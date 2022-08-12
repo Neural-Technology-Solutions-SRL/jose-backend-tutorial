@@ -1,0 +1,15 @@
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\bin\Debug\net6.0\understanding scope.exe
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\bin\Debug\net6.0\understanding scope.deps.json
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\bin\Debug\net6.0\understanding scope.runtimeconfig.json
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\bin\Debug\net6.0\understanding scope.dll
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\bin\Debug\net6.0\understanding scope.pdb
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.csproj.AssemblyReference.cache
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.AssemblyInfoInputs.cache
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.AssemblyInfo.cs
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.csproj.CoreCompileInputs.cache
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.dll
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\refint\understanding scope.dll
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.pdb
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\understanding scope.genruntimeconfig.cache
+C:\Users\jmontero\gitrepos\backendTutorial\Backend\understanding scope\obj\Debug\net6.0\ref\understanding scope.dll
