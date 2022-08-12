@@ -270,29 +270,93 @@ namespace Backend
              Console.WriteLine(myString);
              Console.ReadLine();
             ------------------------------------------------------------------*/
-           /* DateTime myValue = DateTime.Now;
-            //Console.WriteLine(myValue.ToString());
-            //Console.WriteLine(myValue.ToShortDateString());
-            //Console.WriteLine(myValue.ToShortTimeString());
-            //Console.WriteLine(myValue.ToLongDateString());
-            //Console.WriteLine(myValue.ToLongTimeString());
+            /* DateTime myValue = DateTime.Now;
+             //Console.WriteLine(myValue.ToString());
+             //Console.WriteLine(myValue.ToShortDateString());
+             //Console.WriteLine(myValue.ToShortTimeString());
+             //Console.WriteLine(myValue.ToLongDateString());
+             //Console.WriteLine(myValue.ToLongTimeString());
 
-            //Console.WriteLine(myValue.AddDays(3).ToLongDateString());     //>>>>>>>>>> Working With Dates and Times
-            //Console.WriteLine(myValue.AddHours(3).ToLongTimeString());
-            //Console.WriteLine(myValue.AddDays(-3).ToLongDateString());
+             //Console.WriteLine(myValue.AddDays(3).ToLongDateString());     //>>>>>>>>>> Working With Dates and Times
+             //Console.WriteLine(myValue.AddHours(3).ToLongTimeString());
+             //Console.WriteLine(myValue.AddDays(-3).ToLongDateString());
 
-            //Console.WriteLine(myValue.Month);
+             //Console.WriteLine(myValue.Month);
 
-            //DateTime myBirthday = new DateTime(1996, 4, 22);
-            //Console.WriteLine(myBirthday.ToShortDateString());
-            DateTime myBirthday = DateTime.Parse("4/22/1996");
-            TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
-            Console.WriteLine(myAge.TotalDays);
+             //DateTime myBirthday = new DateTime(1996, 4, 22);
+             //Console.WriteLine(myBirthday.ToShortDateString());
+             DateTime myBirthday = DateTime.Parse("4/22/1996");
+             TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+             Console.WriteLine(myAge.TotalDays);
+
+              Console.ReadLine();
+            -----------------------------------------------------------------------------------*/
+          /*  Car myCar = new Car();
+             myCar.Make = "Oldsmobile";
+             myCar.Model = "Cutlas Supreme";
+             myCar.Year = 1986;
+             myCar.Color = "Silver";
+
+             Console.WriteLine("{0} {1} {2} {3}",
+                 myCar.Make,
+                 myCar.Model,                                     //>>>>>>>> Understanding Classes
+                 myCar.Year, 
+                 myCar.Color);
+             //decimal value = DetermineMarketValue(myCar); ;
+             //Console.WriteLine("{0:C}", value);
+             Console.WriteLine("{0:C}",
+             myCar.DetermineMarketValue());
 
              Console.ReadLine();
-           -----------------------------------------------------------------------------------*/
+            ---------------------------------------------------------------------------------------*/
+            Car myCar = new Car();
+           
+            Car.MyMethod();
+
+            /*myCar.Make = "Oldsmobile";
+            myCar.Model = "Cutlas Supreme";
+            myCar.Year = 1986;
+            myCar.Color = "Silver";*/
+
+           // Car myThirdCar = new Car("Ford", "Escape", 2005, "White");
+
+            Car myOtherCar;
+            myOtherCar = myCar;
+
+            /*Console.WriteLine("{0} {1} {2} {3}", 
+                myOtherCar.Make, 
+                myOtherCar.Model, 
+                myOtherCar.Year, 
+                myOtherCar.Color);
+
+            myOtherCar.Model = "98";
+
+            Console.WriteLine("{0} {1} {2} {3}",
+                myCar.Make,
+                myCar.Model,
+                myCar.Year,
+                myCar.Color);*/
+
+           // myOtherCar = null;
+
+            /*
+            Console.WriteLine("{0} {1} {2} {3}",
+                myOtherCar.Make,
+                myOtherCar.Model,
+                myOtherCar.Year,
+                myOtherCar.Color);
+            */
+           // myCar = null;
+
+            Console.ReadLine();
 
         }
+        /*private static decimal DetermineMarketValue(Car car)
+        {
+            decimal carValue = 100.0M;             //>>>>>>>>> Understanding Classes
+            
+            return carValue;
+        }--------------------------------------------------------------*/
         /* private static string ReversesString(string message)
          {
 
@@ -320,5 +384,41 @@ namespace Backend
          }
         ---------------------------------------------------------------*/
 
+    }
+    class Car
+    {
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public int Year { get; set; }
+        public string Color { get; set; }
+
+        
+       /* public Car()
+        {
+            Make = "Nissan";
+        }
+        public Car(string make, string model, int year, string color)
+        {
+            Make=make;
+            Model=model;
+            Year=year;
+            Color=color;
+        }*/
+
+        /*public decimal DetermineMarketValue()------------------------------------
+        {
+            decimal carValue;
+            if (Year > 1990)
+                carValue = 10000;                            //>>>>>>>>Understanding Classes
+            else
+                carValue = 2000;
+
+            return carValue;
+        }-----------------------------------------------------------------------------*/
+
+        public static void MyMethod()
+        {
+            Console.WriteLine("Called the static MyMethod");
+        }
     }
 }
