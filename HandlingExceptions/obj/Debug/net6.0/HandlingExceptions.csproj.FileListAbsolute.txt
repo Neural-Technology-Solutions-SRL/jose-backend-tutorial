@@ -1,0 +1,15 @@
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.exe
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.deps.json
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.runtimeconfig.json
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.dll
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.pdb
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.csproj.AssemblyReference.cache
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfoInputs.cache
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfo.cs
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.csproj.CoreCompileInputs.cache
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.dll
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\refint\HandlingExceptions.dll
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.pdb
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.genruntimeconfig.cache
+C:\Users\jmontero\gitrepos\backendTutorial\HandlingExceptions\obj\Debug\net6.0\ref\HandlingExceptions.dll
