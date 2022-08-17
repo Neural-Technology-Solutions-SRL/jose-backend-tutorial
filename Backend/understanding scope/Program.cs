@@ -12,7 +12,7 @@ namespace Understandingscope
             {
                 j = i.ToString();
                 k = i.ToString();
-                Console.WriteLine(i);
+                Console.WriteLine(i); 
 
                 if(i == 9)
                 {
